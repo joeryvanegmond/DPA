@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="State pattern">
+    <Position X="5.371" Y="4.54" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="flat_space.Astroid" Collapsed="true">
+    <Position X="10.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\astroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.celestialbody" Collapsed="true">
+    <Position X="12" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GABAgIANCYQMAAICIgBQBABIgAAAAACAgADgBAAAAAA=</HashCode>
+      <FileName>Models\celestialbody.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="flat_space.Planet" Collapsed="true">
+    <Position X="13.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAACAAAAAAAAAAAAEAAAAAAAAIAAAAJA=</HashCode>
+      <FileName>Models\planet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.ViewModel" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="flat_space.ViewModel.Update_galaxy_background_callback" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ViewModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CMEACBgIBCEARAgWJAQGBAIAhBUAG4AAkAQrAAEIIFE=</HashCode>
+      <FileName>Models\ViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="flat_space.fold" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAIAADAABAgIUBAAAAgQCAAAAEAAE=</HashCode>
+      <FileName>Models\fold.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="flat_space.ConcreteCelestialFactory" Collapsed="true">
+    <Position X="8.5" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\ConcreteCelestialFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="flat_space.CollisionStates.BaseCollision" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CollisionStates\BaseCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Blink" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAggAAAAAACAAAIAAAAAAAEAA=</HashCode>
+      <FileName>CollisionStates\Blink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Bounce" Collapsed="true">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQ=</HashCode>
+      <FileName>CollisionStates\Bounce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Disappear" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CollisionStates\Disappear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Explode" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CollisionStates\Explode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Grow" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CollisionStates\Grow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.ILexicalAnalyzer" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lexor\ILexicalAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.BreadthFirstSearchClass" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAQgAAA=</HashCode>
+      <FileName>RouteAlghoritms\BreadthFirstSearchClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.SearchPath" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RouteAlghoritms\BreadthFirstSearchClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.DijkstraClass" Collapsed="true">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAgAAACAAAAAAAAAAAAAAAQAIAA=</HashCode>
+      <FileName>RouteAlghoritms\DijkstraClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Node" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAACAAAAA=</HashCode>
+      <FileName>RouteAlghoritms\DijkstraClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.ActionCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Command\ActionCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="flat_space.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgAAAAAAAoCAABBQAAMAAAAIgAAABAAAAAAEIEIAE=</HashCode>
+      <FileName>Window\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="flat_space.Memento.CareTaker" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAYAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Memento\CareTaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Memento.CelestialBodyMemento" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Memento\CelestialBodyMemento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Memento.LinkedListExtension" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Memento\LinkedListExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Lexor.CSVAnalyzer" Collapsed="true">
+    <Position X="8.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Lexor\CSVAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Lexor.FileReader" Collapsed="true">
+    <Position X="6" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lexor\FileReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Lexor.WebAnalyzer" Collapsed="true">
+    <Position X="3.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lexor\WebAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Lexor.XMLAnalyzer" Collapsed="true">
+    <Position X="6" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Lexor\XMLAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.QuadTree.Circle" Collapsed="true">
+    <Position X="17.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAICAQAAAAEAAAAABAAAAAAAAAAAABggAAAAAA=</HashCode>
+      <FileName>QuadTree\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.QuadTree.Rectangle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAIAASAAAQAYAAAAAAAgBAAAAAAAABigAAAAAA=</HashCode>
+      <FileName>QuadTree\Rectangle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="flat_space.QuadTree.Tree" Collapsed="true">
+    <Position X="16.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEAQAAAAhAAAABAAAAAAQAAEAAABAAAAAIAAIQEAA=</HashCode>
+      <FileName>QuadTree\Tree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.App" Collapsed="true">
+    <Position X="16.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="flat_space.AbstractCelestialFactory" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractCelestialFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="flat_space.IOnCollisionState" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAFCAAAAAICAgAABAAAAAAAAACAAABgAAAAAAA=</HashCode>
+      <FileName>CollisionStates\IOnCollisionState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

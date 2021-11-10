@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="get file, xml or csv. From file or web">
+    <Position X="16.906" Y="0.636" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Strategy">
+    <Position X="1.861" Y="6.232" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Abstract factory">
+    <Position X="3.427" Y="3.187" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Move all cb -&gt; check if cb overlaps with other cb or screen -&gt; on collision">
+    <Position X="6.732" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Lexer pattern">
+    <Position X="16.187" Y="1.688" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Visitor">
+    <Position X="14.281" Y="1.896" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="flat_space.Planet">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAACAAAAAAAAAAAAEAAAAAAAAIAAAAJA=</HashCode>
+      <FileName>planet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.ConcreteCelestialFactory">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteCelestialFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="flat_space.AbstractOnCollisionState">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionStates\AbstractOnCollisionState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Blink">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAggAAAAAACAAAIAAAAAAAEAA=</HashCode>
+      <FileName>CollisionStates\Blink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Bounce">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQ=</HashCode>
+      <FileName>CollisionStates\Bounce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Disappear">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CollisionStates\Disappear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Explode">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CollisionStates\Explode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Grow">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>CollisionStates\Grow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.SyntaxAnalyzer">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SyntaxAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.CollisionDetection">
+    <Position X="10.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.App" Collapsed="true">
+    <Position X="18.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Astroid" Collapsed="true">
+    <Position X="8.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>astroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Lexor.CSVAnalyzer" Collapsed="true">
+    <Position X="11.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Lexor\CSVAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Lexor.FileReader" Collapsed="true">
+    <Position X="18.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lexor\FileReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Lexor.WebAnalyzer" Collapsed="true">
+    <Position X="16.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lexor\WebAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.Lexor.XMLAnalyzer" Collapsed="true">
+    <Position X="14" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Lexor\XMLAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.ILexicalAnalyzer" Collapsed="true">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lexor\ILexicalAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="flat_space.celestialbody">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GABAgIANCYQMAAICIgBQBABIgAAAAACAgADgBAAAAAA=</HashCode>
+      <FileName>celestialbody.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="flat_space.AbstractCelestialFactory" Collapsed="true">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractCelestialFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
